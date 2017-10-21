@@ -1,0 +1,17 @@
+{
+	"location": "<location>",
+	"crops": [ {"name": "name",
+				"water": "number of liters",
+				"area": "area of fields",
+				"auto watering": True/False,
+				"watering time": "time of day"
+	}]
+}
+
+// Template for a crop object
+// {"name": "name",
+// 	"water": "number of liters",
+// 	"area": "area of fields",
+// 	"auto watering": True/False,
+// 	"watering time": "time of day"
+// 	}
