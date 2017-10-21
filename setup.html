@@ -32,7 +32,7 @@
 
 		}
 	</script>
-    <div id="main" style="padding: 100px;">
+    <div id="main" style="padding-left: 100px; padding-right: 100px;">
         <div class="jumbotron">
             <h1 class="text-center"><b>Setup</b></h1>
         </div>
@@ -50,6 +50,14 @@
 				  <span class="input-group-addon">Liters</span>
 				</div>
 				<br>
+				<div class="input-group">
+		      <span class="input-group-addon">
+		        <input type="checkbox" aria-label="Checkbox for following text input"> Auto Watering
+		      </span>
+		      <span class="input-group-addon">Time:</span>
+		      <input type="text" class="form-control" aria-label="Text input with checkbox">
+		    </div>
+		    <br>
  				<button class="btn btn-default btn-add" onclick="addCrop()"><i class="fa fa-plus fa-3" aria-hidden="true"></i> Add a crop</button>
             </div>         
            <!--  // Template for a crop object
