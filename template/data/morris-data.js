@@ -4,58 +4,58 @@ $(function() {
         element: 'morris-area-chart',
         data: [{
             period: '2010 Q1',
-            iphone: 2666,
-            ipad: null,
-            itouch: 2647
+            Crop1: 2666,
+            Crop2: null,
+            Crop3: 2647
         }, {
             period: '2010 Q2',
-            iphone: 2778,
-            ipad: 2294,
-            itouch: 2441
+            Crop1: 2778,
+            Crop2: 2294,
+            Crop3: 2441
         }, {
             period: '2010 Q3',
-            iphone: 4912,
-            ipad: 1969,
-            itouch: 2501
+            Crop1: 4912,
+            Crop2: 1969,
+            Crop3: 2501
         }, {
             period: '2010 Q4',
-            iphone: 3767,
-            ipad: 3597,
-            itouch: 5689
+            Crop1: 3767,
+            Crop2: 3597,
+            Crop3: 5689
         }, {
             period: '2011 Q1',
-            iphone: 6810,
-            ipad: 1914,
-            itouch: 2293
+            Crop1: 6810,
+            Crop2: 1914,
+            Crop3: 2293
         }, {
             period: '2011 Q2',
-            iphone: 5670,
-            ipad: 4293,
-            itouch: 1881
+            Crop1: 5670,
+            Crop2: 4293,
+            Crop3: 1881
         }, {
             period: '2011 Q3',
-            iphone: 4820,
-            ipad: 3795,
-            itouch: 1588
+            Crop1: 4820,
+            Crop2: 3795,
+            Crop3: 1588
         }, {
             period: '2011 Q4',
-            iphone: 15073,
-            ipad: 5967,
-            itouch: 5175
+            Crop1: 15073,
+            Crop2: 5967,
+            Crop3: 5175
         }, {
             period: '2012 Q1',
-            iphone: 10687,
-            ipad: 4460,
-            itouch: 2028
+            Crop1: 10687,
+            Crop2: 4460,
+            Crop3: 2028
         }, {
             period: '2012 Q2',
-            iphone: 8432,
-            ipad: 5713,
-            itouch: 1791
+            Crop1: 8432,
+            Crop2: 5713,
+            Crop3: 1791
         }],
         xkey: 'period',
-        ykeys: ['iphone', 'ipad', 'itouch'],
-        labels: ['iPhone', 'iPad', 'iPod Touch'],
+        ykeys: ['Crop1', 'Crop2', 'Crop3'],
+        labels: ['Crop1', 'Crop2', 'Crop 3'],
         pointSize: 2,
         hideHover: 'auto',
         resize: true
